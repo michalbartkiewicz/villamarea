@@ -11,7 +11,6 @@
 <body>
 	<div id="wrapper">
 		<%= render 'layouts/menu' %>
-		<%= render 'layouts/baner_nocowanie'%>
 		<%= render 'layouts/header' %>
 		<div id="splash">&nbsp;</div>
 		<!-- end #header -->
@@ -19,6 +18,7 @@
 			<div id="page-bgtop">
 				<div id="page-bgbtm">
 					<div id="content">
+						<%= render 'layouts/baner_nocowanie'%>
 						<%= yield %>
 					</div>
 					<div style="clear: both;">&nbsp;</div>
